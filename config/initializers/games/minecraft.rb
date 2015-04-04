@@ -303,6 +303,7 @@ GAMES[:minecraft] = {
                 :"Create a set of fully enchanted armour",
                 :"Create a set of fully enchanting diamond armour",
                 :"Write a book about your adventures",
+                :"Clear a Stronghold and make it your home",
             ]
         }
     }
