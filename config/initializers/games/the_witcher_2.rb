@@ -110,6 +110,16 @@ GAMES[:the_witcher_2] =  {
                 :'Remove the diamond',
                 :'Leave the diamond'
             ]
+        },
+        letho: {
+            spoiler: true,
+            chance_of_multiple: 0,
+            min: 1,
+            max: 1,
+            options: [
+                :'Kill him',
+                :'Let him go'
+            ]
         }
     }
 }
