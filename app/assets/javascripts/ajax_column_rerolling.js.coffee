@@ -48,7 +48,7 @@ ready = ->
       s: spoiler
     }
 
-    url = game_name() + '/reroll/column'
+    url = '/game/' + game_name() + '/reroll/column'
 
     $.get(
       url, data
@@ -62,8 +62,7 @@ ready = ->
       return
 
     $(@).children('.loading').show()
-
-    url = game_name() + '/reroll'
+    url = '/game/' + game_name() + '/reroll'
 
     $.get(
       url
